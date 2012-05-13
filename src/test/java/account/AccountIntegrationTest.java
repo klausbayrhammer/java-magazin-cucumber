@@ -8,7 +8,7 @@ import cucumber.junit.Cucumber;
  * @author Klaus Bayrhammer
  */
 @RunWith(Cucumber.class)
-@Cucumber.Options(glue = "account.glue", features = "classpath:account/", strict = true)
+@Cucumber.Options(glue = "account.glue", features = "classpath:account/")
 public class AccountIntegrationTest
 {
 }
